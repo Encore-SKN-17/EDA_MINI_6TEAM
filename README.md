@@ -8,39 +8,31 @@
 ## 👨‍👩‍👧‍👦 팀원 소개
 <table align="center">
   <tr>
-    <td align="center" style="padding: 10px;">
-      <img src="" width="100" /><br/>
+    <td align="center" valign="top" style="padding: 10px;">
       <strong>김민균</strong><br/>
       <img src="https://github.com/user-attachments/assets/e856e3cd-3ab1-40c1-b6f7-2af13b15efa2"/>
-      <a href="https://github.com/alswhitetiger">GitHub</a><br/>
       <sub>@alswhitetiger</sub>
     </td>
-    <td align="center" style="padding: 10px;">
-      <img src="" width="100" /><br/>
+    <td align="center" valign="top" style="padding: 10px;">
       <strong>김준협</strong><br/>
       <img src="https://github.com/user-attachments/assets/40832a72-422f-4f10-aad4-83d6a81f0ce2"/>
-      <a href="https://github.com/use08168">GitHub</a><br/>
       <sub>@use08168</sub>
     </td>
-    <td align="center" style="padding: 10px;">
-      <img src="" /><br/>
+    <td align="center" valign="top" style="padding: 10px;">
       <strong>김태연</strong><br/>
+      <br/><br/>
       <img src="https://github.com/user-attachments/assets/9b2505fc-cd39-4e41-83db-a9dbcd9e17e9"/>
-      <a href="https://github.com/Taeyeon514">GitHub</a><br/>
       <sub>@Taeyeon514</sub>
     </td>
-    <td align="center" style="padding: 10px;">
-      <img src="" width="100" /><br/>
+    <td align="center" valign="top" style="padding: 10px;">
       <strong>신승철</strong><br/>
       <img src="https://github.com/user-attachments/assets/fe7e2983-e615-4d5b-b01b-d9bda28097bd"/>
-      <a href="https://github.com/ssshinnpson">GitHub</a><br/>
       <sub>ssshinnpson</sub>
     </td>
-    <td align="center" style="padding: 10px;">
-      <img src="" width="100" /><br/>
+    <td align="center" valign="top" style="padding: 10px;">
       <strong>박지수</strong><br/>
+      <br/><br/>
       <img src="https://github.com/user-attachments/assets/fe23faf4-c3e6-4086-93ee-c22b6914a3bc"/>
-      <a href="https://github.com/0lipa">GitHub</a><br/>
       <sub>@0lipa</sub>
     </td>
   </tr>
