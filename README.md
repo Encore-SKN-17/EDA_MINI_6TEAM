@@ -40,14 +40,14 @@
 
 ## 🌸프로젝트 소개🌸
 
-### 👓프로젝트 배경 및 목표🧭
+## 👓프로젝트 배경 및 목표🧭
 <img width="615" height="386" alt="스크린샷 2025-07-24 175316" src="https://github.com/user-attachments/assets/dfb24f4a-8dba-48e4-a780-74e4d10f55f0" />
 <img width="624" height="324" alt="스크린샷 2025-07-24 175344" src="https://github.com/user-attachments/assets/c3019e1a-75e5-49b6-ae10-a57a67168104" />
 <img width="832" height="312" alt="스크린샷 2025-07-24 175454" src="https://github.com/user-attachments/assets/ddbcec84-ee46-4ac9-b785-3bd69dc63d31" />
 <img width="1143" height="823" alt="스크린샷 2025-07-24 182458" src="https://github.com/user-attachments/assets/8e4d1430-f813-4142-ba59-cf18ef7a82c3" />
 <img width="745" height="492" alt="image" src="https://github.com/user-attachments/assets/cf033e4f-abb6-4c75-9297-82ee4def0b66" />
 
-맛집을 찾기 위해 우리는 일반적으로 별점과 리뷰를 확인합니다. 그러나, 리뷰의 영향력이 크기 때문에 별점과 리뷰를 돈을 주고 허위로 만들어내기도 합니다. 따라서 네이버의 경우 2021년 음식점 별점 리뷰를 폐지하겠다는 의지를 표명하기도 했었습니다. 이외에도 미슐랭 가이드, 블루리본 등 음식점의 맛의 척도를 나타내는 가이드들도 존재합니다. 이러한 상황에서 소비자들은 무엇을 믿어야 할지 고민이 많아졌습니다. 따라서 저희 팀은 '맛집'을 어떻게 찾으면 좋을지 그리고 소비자와 자영업자 각각의 입장에서 방향성을 어떻게 도출할 수 있을지 가이드라인을 제시할 수 있으면 좋겠다는 일념 하에 해당 프로젝트를 진행하게 되었습니다.
+맛집을 찾기 위해 우리는 일반적으로 별점과 리뷰를 확인합니다. 그러나, 리뷰의 영향력이 크기 때문에 별점과 리뷰를 돈을 주고 허위로 만들어내기도 합니다. 따라서 네이버의 경우 2021년 음식점 별점 리뷰를 폐지하겠다는 의지를 표명하기도 했었습니다. 이외에도 미슐랭 가이드, 블루리본 등 음식점의 맛의 척도를 나타내는 가이드들도 존재합니다. 이러한 상황에서 소비자들은 무엇을 믿어야 할지, 어떤 것을 믿을 수 있을지 고민이 많아졌습니다. 따라서 저희 팀은 '맛집'을 어떻게 찾으면 좋을지 그리고 소비자와 자영업자 각각의 입장에서 방향성을 어떻게 도출할 수 있을지 가이드라인을 제시할 수 있으면 좋겠다는 일념 하에 해당 프로젝트를 진행하게 되었습니다.
 
 **각각의 입장에서 배경을 살펴보자면,**
 
@@ -71,8 +71,7 @@
 | 카테고리                | 기술 스택                                                                                     |
 |-----------------------|--------------------------------------------------------------------------------------------|
 | 언어                  | <img src="https://i.namu.wiki/i/mxMv5lNX8m8lUwu7yTjN6eNZh8JVuI6a_chEyMRc4V9oECkhVIl7OiPiGIOllv14uDVNuwRPVco8abCPe5xOiQ.svg" width="20"/> Python |
-| 라이브러리            | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" width="20"/> Pandas, <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/selenium/selenium-original.svg" width="20"/> Selenium |
-| 데이터베이스           | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" width="20"/> MySQL           |
+| 라이브러리            | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" width="20"/> Pandas, <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/selenium/selenium-original.svg" width="20"/> Selenium, <img src="https://i.namu.wiki/i/uN4a2fBtfIDlRFULkhnx_hE3DNHFvynH-i2vIgcQXTiA6cNeKpQpi_AKyi9FwRDriJlC9uGmeHOQ5BASY9EdD-WdkMfAvXXTn5LNzB5LidF2ZkQ4lNy9rptO5CDqQAdw2DYcX259nte_vpSi2tGPkg.svg" width="40"/> Numpy, <img src="https://i.namu.wiki/i/ir6MwDCWp-pLz09_ehGuX8VOMqaVQcSmpRUdGsemOZS5dgqm8onksRb-aGnQtsp7pQs8wlUCsEgMHMXtI3TlvWt1Zzk2-VAQIzHi99l8AvjE-l16PjZxsqy7HL0hoUCCMp1xed-oVbZaErBZaSr91w.svg" width="40"/> Matplotlib |
 | 개발 환경 및 협업 도구 | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="20"/> Git, <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" width="20"/> VSCode |
 
   
