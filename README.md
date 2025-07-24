@@ -74,9 +74,46 @@
 | 라이브러리            | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" width="20"/> Pandas, <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/selenium/selenium-original.svg" width="20"/> Selenium, <img src="https://i.namu.wiki/i/uN4a2fBtfIDlRFULkhnx_hE3DNHFvynH-i2vIgcQXTiA6cNeKpQpi_AKyi9FwRDriJlC9uGmeHOQ5BASY9EdD-WdkMfAvXXTn5LNzB5LidF2ZkQ4lNy9rptO5CDqQAdw2DYcX259nte_vpSi2tGPkg.svg" width="40"/> Numpy, <img src="https://i.namu.wiki/i/ir6MwDCWp-pLz09_ehGuX8VOMqaVQcSmpRUdGsemOZS5dgqm8onksRb-aGnQtsp7pQs8wlUCsEgMHMXtI3TlvWt1Zzk2-VAQIzHi99l8AvjE-l16PjZxsqy7HL0hoUCCMp1xed-oVbZaErBZaSr91w.svg" width="40"/> Matplotlib |
 | 개발 환경 및 협업 도구 | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="20"/> Git, <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" width="20"/> VSCode |
 
+## 🛡️데이터 출처
   
-## WBS
+## 🪟 WBS
 <img width="1653" height="249" alt="image" src="https://github.com/user-attachments/assets/652bc7ef-ffdd-4510-8ad5-cd37c6de42c9" />
+
+## 🍀전처리
+1. 불필요 컬럼 제거
+의미 없는 Feature : 식당 Id
+주소 Feature : 서울특별시가 아닌 타지역 주소
+
+2. 주소처리
+주소 형태 변환 (예 : 서울특별시 마포구 홍익로5길 57 (서교동) 1층 -> 홍대)
+
+3. 리뷰 처리
+블루리본, 레드리본, 리뷰평 모두 없는 식당 제거
+
+## 🛡️수행 결과
+<br><img width="677" height="580" alt="연관성" src="https://github.com/user-attachments/assets/176fb8d5-c453-4772-a0cf-417f0efd51ac" /></br>
+>> 데이터 분석 결과 평점만 보았을 때에는 다른 것들과 크게 관련이 있지 않은 것으로 나타났습니다. 하지만, 리뷰 개수가 높으면 상관관계가 있습니다. 
+
+<br><img width="573" height="453" alt="레드리본 개수별 평균 리뷰수" src="https://github.com/user-attachments/assets/97d1b7cc-44fa-416b-a1cf-c00f5e3eca22" /></br>
+>> 레드리본의 경우 리본 개수가 많은 식당일 수록 평균 리뷰 수가 많습니다.
+
+<br><img width="714" height="543" alt="리뷰 개수별 리본 개수 평균" src="https://github.com/user-attachments/assets/2ac05900-17ae-46a0-924f-c723c6abc3d2" /></br>
+>> X축이 리뷰 개수, Y축은 리본 개수인 바차트입니다. 리뷰 개수가 많은 식당일 수록 평균적으로 보유하고 있는 리본 개수가 많습니다. 
+
+<br><img width="1798" height="737" alt="메뉴태그별 총 리본 개수" src="https://github.com/user-attachments/assets/bad9d2d2-49ea-4def-9d8e-dc44fcb8cc56" /></br>
+>> 리뷰수, 리본 개수별로 메뉴 태그를 분석해보았습니다. 그 결과, 피자와 파스타, 이탈리안 음식점, 와인바 등 이국적인 곳들의 리본 개수가 타 메뉴들과 비교했을 때 확연히 많은 것으로 분석되었습니다.
+
+<br><img width="900" height="769" alt="지역구 히트맵" src="https://github.com/user-attachments/assets/6c6a65f2-1d97-4504-9c4c-efcf42e93927" /></br>
+>> 지역구별로 확인했을 때 마포구는 기타, 성동구는 기타와 한식, 용산구는 경양식의 빈도가 높았음을 알 수 있었습니다.
+
+<br><img width="900" height="447" alt="기타클래스 메뉴태그 단어 빈도" src="https://github.com/user-attachments/assets/1664e952-bb8f-4f6c-943e-c0dbb6c01bc2" /></br>
+>> 추가로 기타에는 어떤 음식을 판매하는지 확인해보면 술집 혹은 카페의 빈도수가 높았으며, 이국적인 음식의 빈도가 그 뒤를 이었습니다. 
+
+
+**=>‼️결론‼️**
+- 최소한 리뷰 수가 860개 이상이 되어야 블루리본과 레드리본 사이트에 올라올 확률이 50% 이상이 됩니다. 따라서 리뷰 수가 860개 이상이면 믿을만 하다고 볼 수 있습니다.
+- 지역을 기준으로 할 경우 홍대는 일식, 중식과 같이 이국적인 음식을 선택하면 성공 확률이 높으며, 성수는 샌드위치나 다이닝바와 같이 간편한 음식이 높으며, 이태원은 전반적으로 술과 관련된 식당의 평이 높은 것으로 나타났습니다. 
+
 
 ## 한줄 회고록
 - 김민균: 크롤링을 하면서 한번더 알게 되었지만 너무 어려웠다.... 전에는 일반 웹에서 했다면 이번에는 웹앱에서 크롤링을 하게 되면서 크롤링을 한번더 어떻게 해야 되는지 알게 되었고 태연님이랑 몇시간을 같이 해보았는데 작동을 안하여서 너무나도 힘이 들었지만 준협님이 페이지가 어떻게 돌아가는지 알아보고 노력해서 결국에는 크롤링이 성공적으로 되었지만 제가 많이 부족하다는 걸 알았고 또한 팀원들이 있어야지 나도 성장을 할수 있다는 것을 느끼게 되었습니다. 
