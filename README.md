@@ -72,8 +72,6 @@
 ## WBS
 <img width="1653" height="249" alt="image" src="https://github.com/user-attachments/assets/652bc7ef-ffdd-4510-8ad5-cd37c6de42c9" />
 
-## ERD
-
 ## 한줄 회고록
 - 김민균: 
 
