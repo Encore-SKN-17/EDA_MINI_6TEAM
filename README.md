@@ -10,33 +10,36 @@
   <tr>
     <td align="center" valign="top" style="padding: 10px;">
       <strong>김민균</strong><br/>
-      <img src="https://github.com/user-attachments/assets/e856e3cd-3ab1-40c1-b6f7-2af13b15efa2"/>
-      <sub>@alswhitetiger</sub>
+      <img src="https://github.com/user-attachments/assets/e856e3cd-3ab1-40c1-b6f7-2af13b15efa2" width="120"/><br/> 
     </td>
     <td align="center" valign="top" style="padding: 10px;">
       <strong>김준협</strong><br/>
-      <img src="https://github.com/user-attachments/assets/40832a72-422f-4f10-aad4-83d6a81f0ce2"/>
-      <sub>@use08168</sub>
+      <img src="https://github.com/user-attachments/assets/40832a72-422f-4f10-aad4-83d6a81f0ce2" width="120"/><br/>
     </td>
     <td align="center" valign="top" style="padding: 10px;">
       <strong>김태연</strong><br/>
-      <br/><br/>
-      <img src="https://github.com/user-attachments/assets/9b2505fc-cd39-4e41-83db-a9dbcd9e17e9"/>
-      <sub>@Taeyeon514</sub>
+      <br><br/>
+      <br><br/>
+      <img src="https://github.com/user-attachments/assets/9b2505fc-cd39-4e41-83db-a9dbcd9e17e9" width="120"/><br/>
     </td>
-      <td align="center" valign="top" style="padding: 10px;">
+    <td align="center" valign="top" style="padding: 10px;">
       <strong>박지수</strong><br/>
-      <br/><br/>
-      <img src="https://github.com/user-attachments/assets/fe23faf4-c3e6-4086-93ee-c22b6914a3bc"/>
-      <sub>@0lipa</sub>
+      <img src="https://github.com/user-attachments/assets/fe23faf4-c3e6-4086-93ee-c22b6914a3bc" width="120"/><br/>
     </td>
     <td align="center" valign="top" style="padding: 10px;">
       <strong>신승철</strong><br/>
-      <img src="https://github.com/user-attachments/assets/fe7e2983-e615-4d5b-b01b-d9bda28097bd"/>
-      <sub>ssshinnpson</sub>
+      <img src="https://github.com/user-attachments/assets/fe7e2983-e615-4d5b-b01b-d9bda28097bd" width="120"/><br/>
     </td>
   </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/alswhitetiger">@alswhitetiger</a></td>
+    <td align="center"><a href="https://github.com/use08168">@use08168</a></td>
+    <td align="center"><a href="https://github.com/Taeyeon514">@Taeyeon514</a></td>
+    <td align="center"><a href="https://github.com/0lipa">@0lipa</a></td>
+    <td align="center"><a href="https://github.com/ssshinnpson">@ssshinnpson</a></td>
+  </tr>
 </table>
+
 
 ## 🌸프로젝트 소개🌸
 
@@ -74,7 +77,12 @@
 | 라이브러리            | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" width="20"/> Pandas, <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/selenium/selenium-original.svg" width="20"/> Selenium, <img src="https://i.namu.wiki/i/uN4a2fBtfIDlRFULkhnx_hE3DNHFvynH-i2vIgcQXTiA6cNeKpQpi_AKyi9FwRDriJlC9uGmeHOQ5BASY9EdD-WdkMfAvXXTn5LNzB5LidF2ZkQ4lNy9rptO5CDqQAdw2DYcX259nte_vpSi2tGPkg.svg" width="40"/> Numpy, <img src="https://i.namu.wiki/i/ir6MwDCWp-pLz09_ehGuX8VOMqaVQcSmpRUdGsemOZS5dgqm8onksRb-aGnQtsp7pQs8wlUCsEgMHMXtI3TlvWt1Zzk2-VAQIzHi99l8AvjE-l16PjZxsqy7HL0hoUCCMp1xed-oVbZaErBZaSr91w.svg" width="40"/> Matplotlib |
 | 개발 환경 및 협업 도구 | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="20"/> Git, <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" width="20"/> VSCode |
 
-## 🛡️데이터 출처
+## 🛡️데이터 출처(API 및 크롤링 데이터)
+  <br> 캐치테이블:  https://app.catchtable.co.kr/ <br/>
+  <br> 블루리본 서베이: https://www.bluer.co.kr/ <br/>
+  <br> 구글맵스: https://developers.google.com/maps?hl=ko <br/>
+  <br> CSV 데이터: 성동구, 마포구, 금천구 일반음식점 인허가 정보 <br/>
+
   
 ## 🪟 WBS
 <img width="1653" height="249" alt="image" src="https://github.com/user-attachments/assets/652bc7ef-ffdd-4510-8ad5-cd37c6de42c9" />
@@ -92,7 +100,11 @@
 
 ## 🛡️수행 결과
 <br><img width="677" height="580" alt="연관성" src="https://github.com/user-attachments/assets/176fb8d5-c453-4772-a0cf-417f0efd51ac" /></br>
->> 데이터 분석 결과 평점만 보았을 때에는 다른 것들과 크게 관련이 있지 않은 것으로 나타났습니다. 하지만, 리뷰 개수가 높으면 상관관계가 있습니다. 
+>> 저희가 맛집 판단 기준으로 세운 블루/레드리본 개수와 catchtable, googlemap, 그리고 각 지역간의 상관관계가 있는지 살펴봤습니다. 우선 행렬로 살펴봤을 때 캐치테이블, 구글맵의 리뷰 개수, 평점간 관계는 매우 약한 것으로 보였습니다.
+
+<br><img width="573" height="432" alt="리뷰포인트별 리본" src="https://github.com/user-attachments/assets/67335400-17ce-424f-b9f4-3872c61fe049" /><br/>
+<br><img width="573" height="438" alt="no_ribbon" src="https://github.com/user-attachments/assets/a9c59f9b-b79f-41e1-a364-f0b2a8f1c160" /><br/>
+>> 데이터 분석 결과 평점만 보았을 때에는 다른 것들과 크게 관련이 있지 않은 것으로 나타났습니다. 하지만, 리뷰 개수가 높으면 상관관계가 있습니다.
 
 <br><img width="573" height="453" alt="레드리본 개수별 평균 리뷰수" src="https://github.com/user-attachments/assets/97d1b7cc-44fa-416b-a1cf-c00f5e3eca22" /></br>
 >> 레드리본의 경우 리본 개수가 많은 식당일 수록 평균 리뷰 수가 많습니다.
