@@ -24,16 +24,16 @@
       <img src="https://github.com/user-attachments/assets/9b2505fc-cd39-4e41-83db-a9dbcd9e17e9"/>
       <sub>@Taeyeon514</sub>
     </td>
-    <td align="center" valign="top" style="padding: 10px;">
-      <strong>신승철</strong><br/>
-      <img src="https://github.com/user-attachments/assets/fe7e2983-e615-4d5b-b01b-d9bda28097bd"/>
-      <sub>ssshinnpson</sub>
-    </td>
-    <td align="center" valign="top" style="padding: 10px;">
+      <td align="center" valign="top" style="padding: 10px;">
       <strong>박지수</strong><br/>
       <br/><br/>
       <img src="https://github.com/user-attachments/assets/fe23faf4-c3e6-4086-93ee-c22b6914a3bc"/>
       <sub>@0lipa</sub>
+    </td>
+    <td align="center" valign="top" style="padding: 10px;">
+      <strong>신승철</strong><br/>
+      <img src="https://github.com/user-attachments/assets/fe7e2983-e615-4d5b-b01b-d9bda28097bd"/>
+      <sub>ssshinnpson</sub>
     </td>
   </tr>
 </table>
