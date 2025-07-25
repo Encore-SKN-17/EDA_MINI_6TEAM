@@ -1,4 +1,6 @@
-# 🍔🥐맛집? 맞지!🍜🍗
+<div align="center">
+  <h1>🍔🥐맛집? 맞지!🍜🍗</h1>
+</div>
 
 ## 팀 소개
 <div align="center">
