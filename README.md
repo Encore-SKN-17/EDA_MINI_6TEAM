@@ -1,4 +1,4 @@
-# EDA_MINI_6TEAM
+# EDA_MINI_6TEAM - 🍔🥐맛집? 맞지!🍜🍗
 
 ## 팀 소개
 <div align="center">
